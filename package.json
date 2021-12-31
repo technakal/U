@@ -1,0 +1,35 @@
+{
+  "name": "u",
+  "version": "1.0.0",
+  "description": "a utility library in vanilla JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "test:badges": "npm run test:coverage && jest-coverage-badges"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technakal/U.git"
+  },
+  "keywords": [
+    "library",
+    "JavaScript",
+    "utility",
+    "functional"
+  ],
+  "author": "N. Keener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technakal/U/issues"
+  },
+  "homepage": "https://github.com/technakal/U#readme",
+  "dependencies": {
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5",
+    "jest-coverage-badges": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.7"
+  }
+}
